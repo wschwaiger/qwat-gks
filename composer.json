@@ -1,0 +1,28 @@
+{
+    "name": "qwat-gks",
+    "description": "Google keyword research right out of your Contao Back-End. Improve your SEO, page titles and descriptions.",
+    "keywords": ["contao", "google", "keywords", "google suggest", "keyword finder", "seo"],
+    "type": "contao-module",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Wolfgang Schwaiger",
+            "homepage": "http://qualitywork.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "contao/core": ">=3.5",
+        "contao-community-alliance/composer-plugin": "2.*"
+    },
+    "replace": {
+        "contao-legacy/tawkto": "self.version"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/qwat-gks"
+            }
+        }
+    }
+}
