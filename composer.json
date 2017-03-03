@@ -7,7 +7,8 @@
     "authors": [
         {
             "name": "Wolfgang Schwaiger",
-            "homepage": "http://qualitywork.at"
+            "homepage": "https://www.qualitywork.at",
+            "email": "wolfgang.schwaiger@qualitywork.at",
         }
     ],
     "require": {
@@ -15,7 +16,7 @@
         "contao/core": ">=3.5,<4"
     },
     "replace": {
-        "contao-legacy/tawkto": "self.version"
+        "contao-legacy/qwat-gks": "self.version"
     },
     "extra": {
         "contao": {
